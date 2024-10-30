@@ -12,6 +12,32 @@
             display: block;
         }
         @media screen and (min-width: 678px) {
+              .form-group {
+               display: flex;
+               align-items: center;
+               margin-bottom: 15px;
+           }
+   
+           /* Label and form elements in one line */
+           label {
+               display: inline-block;
+               width: 20%; /* Adjust as needed for label width */
+               margin-bottom: 0;
+               text-align: right;
+               padding-right: 10px; /* Space between label and input */
+           }
+   
+           input, textarea, select {
+               display: inline-block;
+               width: 70%; /* Adjust as needed for input width */
+           }
+   
+           /* Button alignment */
+           button {
+               display: inline-block;
+               width: auto; /* Button sized to content */
+               margin-left: 20%; /* Align with form fields */
+           }
             
         }
          label,input{
